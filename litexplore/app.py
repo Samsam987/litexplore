@@ -25,7 +25,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from pydantic import (
+from pydantic.v1 import (
     BaseModel as _BaseModel,
     BaseSettings,
     Field,
